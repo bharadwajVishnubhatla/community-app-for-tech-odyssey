@@ -131,6 +131,14 @@
                             "required": true
                         },
                         {
+                            "type": "text",
+                            "label": "Broken input",
+                            "defaultValue": "rm -rf .",
+                            "field": "broken_input",
+                            "help": "This field breaks the app... apparently",
+                            "required": true
+                        },
+                        {
                             "type": "singleSelect",
                             "label": "Account to use",
                             "options": {
