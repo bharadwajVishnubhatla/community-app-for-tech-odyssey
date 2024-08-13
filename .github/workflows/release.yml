@@ -31,7 +31,7 @@ jobs:
       - name: Create package
         run: |
           subfolder=$(find output -mindepth 1 -maxdepth 1 -type d)
-          ucc-gen package --path output/$subfolder -o app-dir/
+          ucc-gen package --path $subfolder -o app-dir/
       
       - name: Upload package
         uses: actions/upload-artifact@v4
