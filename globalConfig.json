@@ -220,7 +220,7 @@
     "meta": {
         "name": "community_app_for_buttercup",
         "restRoot": "community_app_for_buttercup",
-        "version": "1.0.1Rd56db3a",
+        "version": "1.0.1",
         "displayName": "Community App For Buttercup",
         "schemaVersion": "0.0.3"
     }
